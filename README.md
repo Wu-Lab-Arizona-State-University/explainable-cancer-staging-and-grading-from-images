@@ -8,12 +8,14 @@ Suryadipto Sarkar, A S Aravinthakshan, Teresa Wu, Alvin C. Silva
 
 This is a repository that contains information on how to reproduce results corresponding to the *cutaneous T cell lymphoma (CTCL)* case study reported in [Spatial cell graph analysis reveals skin tissue organization characteristic for cutaneous T cell lymphoma](https://paper-doi-when-available).
 
-# Summary of methods (rough documentation-to be removed)
+# Summary of methods
+
 
 ## **Part-1**: Gradient-driven stochastic random walk identifies urologic cancer stages from CT and MRI images
 
-### Python package:
-- GradR-Walk (access [here](url-unavailable))
+### Python packages:
+- Network-GradR-Walk (access [here](url-unavailable))
+- Spatial-GradR-Walk (access [here](url-unavailable))
 
 ### Background:
 - Access [here](https://drive.google.com/file/d/1EUF3mP1GRZoJq1YrjgqRfqZzonPP_h_o/view)
@@ -27,13 +29,23 @@ This is a repository that contains information on how to reproduce results corre
 ### Background:
 - Access [here](https://drive.google.com/file/d/1cabsMYn3Nx24RTV4fxSnoucd9XwMRDBk/view) (access shorter version [here](https://drive.google.com/file/d/12noc7UbtaH9IIwRjv4OWsyFSo1K9oh_C/view) for potential students&mdash;please ignore)
 
+
 ## **Part-3**: Heterogeneity-based approach
+
+### Python packages:
+
+- Network-Heterogeneity
+
+- Spatial-Heterogeneity
+
+### Background:
 
 - SHouT(entropy, egophily, homophily) (access [here](https://www.biorxiv.org/content/10.1101/2024.05.17.594629v1.abstract))
 
 - Leibovici entropy, Altieri entropy
 
 - Spatial entropy (Moran's I, Geary's C)
+
 
 ## **Part-4**: Classifying cancer ROIs by combining imaging-based heterogeneity in tumor microenvironments, in combination with molecular data (for example, gene expression data)
 
