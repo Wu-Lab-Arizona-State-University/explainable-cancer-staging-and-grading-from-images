@@ -8,18 +8,29 @@ Suryadipto Sarkar, A S Aravinthakshan, Teresa Wu, Alvin C. Silva
 
 This is a repository that contains information on how to reproduce results corresponding to the *cutaneous T cell lymphoma (CTCL)* case study reported in [Spatial cell graph analysis reveals skin tissue organization characteristic for cutaneous T cell lymphoma](https://paper-doi-when-available).
 
-# Methods
+# Summary of methods (rough documentation-to be removed)
 
 ## **Part-1**: Gradient-driven stochastic random walk identifies urologic cancer stages from CT and MRI images (access [here](https://drive.google.com/file/d/1EUF3mP1GRZoJq1YrjgqRfqZzonPP_h_o/view))
 
 
-## **Part-1**: Gradient-driven stochastic random walk identifies urologic cancer stages from CT and MRI images (access [here](https://drive.google.com/file/d/1EUF3mP1GRZoJq1YrjgqRfqZzonPP_h_o/view))
+## **Part-2**: Automated cancer staging and grading with multimodal (imaging + non-imaging) data? Can we predict stage from aggressiveness? (access [here](https://drive.google.com/file/d/1cabsMYn3Nx24RTV4fxSnoucd9XwMRDBk/view)) (access shorter version [here](https://drive.google.com/file/d/12noc7UbtaH9IIwRjv4OWsyFSo1K9oh_C/view) for potential students--please ignore)
 
 
-## **Part-1**: Gradient-driven stochastic random walk identifies urologic cancer stages from CT and MRI images (access [here](https://drive.google.com/file/d/1EUF3mP1GRZoJq1YrjgqRfqZzonPP_h_o/view))
+## **Part-3**: Heterogeneity-based approach
 
+- SHouT(entropy, egophily, homophily) (access [here](https://www.biorxiv.org/content/10.1101/2024.05.17.594629v1.abstract))
 
-## **Part-1**: Gradient-driven stochastic random walk identifies urologic cancer stages from CT and MRI images (access [here](https://drive.google.com/file/d/1EUF3mP1GRZoJq1YrjgqRfqZzonPP_h_o/view))
+- Leibovici entropy, Altieri entropy
+
+- Spatial entropy (Moran's I, Geary's C)
+
+## **Part-4**: Classifying cancer ROIs by combining imaging-based heterogeneity in tumor microenvironments, in combination with molecular data (for example, gene expression data)
+
+- Can this help explain underlying molecular mechanisms (eg. gene and/ or protein expressions), and how they manifest in scans?
+
+- Very loosely related to this work (ECCB2024 poster presentation):
+
+![ECCB2024-heterogeneity-poster](/ECCB2024-heterogeneity-poster.jpeg)
 
 <!------------------>
 
