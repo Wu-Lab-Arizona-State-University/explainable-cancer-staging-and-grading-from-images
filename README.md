@@ -1,6 +1,27 @@
+# Inferring explainable algorithmic approaches to identifying cancer stages, cancer grades and regions of interest automatically from medical images
+Suryadipto Sarkar, A S Aravinthakshan, Teresa Wu, Alvin C. Silva
+
+
+
+
 # About
 
 This is a repository that contains information on how to reproduce results corresponding to the *cutaneous T cell lymphoma (CTCL)* case study reported in [Spatial cell graph analysis reveals skin tissue organization characteristic for cutaneous T cell lymphoma](https://paper-doi-when-available).
+
+# Methods
+
+## **Part-1**: Gradient-driven stochastic random walk identifies urologic cancer stages from CT and MRI images (access [here](https://drive.google.com/file/d/1EUF3mP1GRZoJq1YrjgqRfqZzonPP_h_o/view))
+
+
+## **Part-1**: Gradient-driven stochastic random walk identifies urologic cancer stages from CT and MRI images (access [here](https://drive.google.com/file/d/1EUF3mP1GRZoJq1YrjgqRfqZzonPP_h_o/view))
+
+
+## **Part-1**: Gradient-driven stochastic random walk identifies urologic cancer stages from CT and MRI images (access [here](https://drive.google.com/file/d/1EUF3mP1GRZoJq1YrjgqRfqZzonPP_h_o/view))
+
+
+## **Part-1**: Gradient-driven stochastic random walk identifies urologic cancer stages from CT and MRI images (access [here](https://drive.google.com/file/d/1EUF3mP1GRZoJq1YrjgqRfqZzonPP_h_o/view))
+
+<!------------------>
 
 <!------------------>
 
