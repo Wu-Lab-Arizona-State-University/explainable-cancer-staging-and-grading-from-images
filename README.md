@@ -83,108 +83,22 @@ pip install scipy==1.10.1 numpy==1.23.5 squidpy==1.3.0 pandas==1.5.3 scikit-lear
 ```
 *Note:* Additionally, modules *math* and *statistics* were used, however no installation is required as they are provided with Python by default.
 
-<!------------------>
-
-# Abc
-
-## Steps involved:
-
-**Algorithm:**
-
-Step-1: ...
-
-Step-2: ...
-
-Step-3: ...
-
-Step-4: ...
-
-Step-5: ...
-
-Step-6: ...
-
-Step-7: Repeat step-1.
-
-**Once the algorithm is complete, do the following:**
-
-i. ...
-
-ii. ...
-
-iii. ...
-
-*Note:* For a detailed explanation of the Abc algorithm, please refer to the [paper](url-unavailable).
-
-## Running the code:
-
-Navigate  to */scripts/.../* and run **xyz.py**.
-
-## Output:
-
-Sample-wise cell type assignment results saved as **/scripts/.../results/xyz.csv** and **/scripts/.../results/xyz.h5ad**.
-
-Additionally, if you want to save the results as separate .h5ad files per sample, please uncomment and run the last section of **cxyz.py** titled *Generate separate .h5ad files* (lines 77-86). This will result in separate .h5ad files saved as ...
-
-*Note:* It must be noted that ...
-
-<!------------------>
-
-# Generating and saving Abc scores
-
-## xyz
-
-Navigate  to */scripts/.../* and run **xyz.py**.
-
-New AnnData objects with SHouT scores saved in */results* folder as **.h5ad** files, with the same name as the original sample number.
-
-## xyz
-
-...
-
-## xyz
-
-...
-
-<!------------------>
 
 # Robustness testing
 
-## Shuffled labels
-
-### Statistical testing (Mann-Whitney U-test)
-
-...
-
-## Subsampled patients
-
-### Statistical testing (Mann-Whitney U-test)
-
-...
+Pending
 
 <!------------------>
 
 # Scalability testing
 
-## Runtimes with varying radii
-
-...
+Pending
 
 <!------------------>
 
 # Reproducing figures
 
-## Reproducing results shown in Fig 2
-
-...
-
-## Reproducing results shown in Fig 3
-
-...
-
-
-## Reproducing results shown in Fig 4
-
-...
+Pending
 
 <!------------------>
 
