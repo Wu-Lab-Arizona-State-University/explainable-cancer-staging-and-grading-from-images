@@ -21,16 +21,7 @@ This is a repository that contains information on how to reproduce results corre
 - Access [here](https://drive.google.com/file/d/1EUF3mP1GRZoJq1YrjgqRfqZzonPP_h_o/view)
 
 
-/* ## **Part-2**: Automated cancer staging and grading with multimodal (imaging + non-imaging) data? Can we predict stage from aggressiveness?
-
-### Python package:
-- Stage2Grade (access [here](url-unavailable))
-
-### Background:
-- Access [here](https://drive.google.com/file/d/1cabsMYn3Nx24RTV4fxSnoucd9XwMRDBk/view) (access shorter version [here](https://drive.google.com/file/d/12noc7UbtaH9IIwRjv4OWsyFSo1K9oh_C/view) for potential students&mdash;please ignore)
-*/
-
-## **Part-3**: Heterogeneity-based approach
+## **Part-2**: Heterogeneity-based approach
 
 ### Python packages:
 
@@ -47,7 +38,7 @@ This is a repository that contains information on how to reproduce results corre
 - Spatial entropy (Moran's I, Geary's C)
 
 
-## **Part-4**: Classifying cancer ROIs by combining imaging-based heterogeneity in tumor microenvironments, in combination with molecular data (for example, gene expression data)
+## **Part-3**: Classifying cancer ROIs by combining imaging-based heterogeneity in tumor microenvironments, in combination with molecular data (for example, gene expression data)
 
 - Can this help explain underlying molecular mechanisms (eg. gene and/ or protein expressions), and how they manifest in scans?
 
