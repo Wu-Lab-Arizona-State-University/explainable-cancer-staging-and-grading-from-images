@@ -1,7 +1,7 @@
 ![iXL](iXL-icon.jpeg)
 
 
-# iXL: **I***nferring e**X**p**L**ainable algorithmic approaches to identifying cancer stages, cancer grades and regions of interest automatically from medical images
+# iXL: <ins>I</ins>nferring e<ins>X</ins>p<ins>L</ins>ainable algorithmic approaches to identifying cancer stages, cancer grades and regions of interest automatically from medical images
 Suryadipto Sarkar, A S Aravinthakshan, Teresa Wu, Alvin C. Silva
 
 
