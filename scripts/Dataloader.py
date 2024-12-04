@@ -235,36 +235,36 @@ def visualize_dataset(dataset, num_samples=4):
     plt.tight_layout()
     plt.show()
         
-# dataset = BladderCancerDataset(root_dir ='/home/as-aravinthakshan/Desktop/RESEARCH/explainable-cancer-staging-and-frading-from-images/data/preprocessed/Al-Bladder Cancer')
-# # sample = dataset[200]  # Get the first sample
-# # BladderCancerVisualizer.visualize_sample(sample)
-# dataloader = DataLoader(dataset, batch_size=4, shuffle=True)
-# batch = next(iter(dataloader))
-# BladderCancerVisualizer.visualize_batch(batch)
+dataset = BladderCancerDataset(root_dir ='/home/as-aravinthakshan/Desktop/RESEARCH/explainable-cancer-staging-and-frading-from-images/data/preprocessed/Al-Bladder Cancer')
+# sample = dataset[200]  # Get the first sample
+# BladderCancerVisualizer.visualize_sample(sample)
+dataloader = DataLoader(dataset, batch_size=4, shuffle=True)
+batch = next(iter(dataloader))
+BladderCancerVisualizer.visualize_batch(batch)
 
 
-# base_dataset = BladderCancerDataset(root_dir='data/preprocessed/Al-Bladder Cancer/')
-# roi_dataset = BladderCancerROIDataset(
-#     base_dataset, 
-#     roi_width=128, 
-#     roi_height=128, 
-#     overlap=0.25, 
-#     max_rois_per_image=10
-# )
+base_dataset = BladderCancerDataset(root_dir='data/preprocessed/Al-Bladder Cancer/')
+roi_dataset = BladderCancerROIDataset(
+    base_dataset, 
+    roi_width=128, 
+    roi_height=128, 
+    overlap=0.40, 
+    max_rois_per_image=10
+)
 
-# roi_dataloader = DataLoader(
-#     roi_dataset,
-#     batch_size=16,
-#     shuffle=True,
-#     num_workers=4
-# )
+roi_dataloader = DataLoader(
+    roi_dataset,
+    batch_size=16,
+    shuffle=True,
+    num_workers=4
+)
 
-# visualizer = BladderCancerROIVisualizer()
+visualizer = BladderCancerROIVisualizer()
 
-# sample = roi_dataset[0]
-# visualizer.visualize_single_roi(sample)
+sample = roi_dataset[0]
+visualizer.visualize_single_roi(sample)
 
-# batch = next(iter(roi_dataloader))
-# visualizer.visualize_roi_batch(batch)
+batch = next(iter(roi_dataloader))
+visualizer.visualize_roi_batch(batch)
 
-# visualizer.visualize_dataset(roi_dataset)
+visualizer.visualize_dataset(roi_dataset)
