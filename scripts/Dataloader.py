@@ -235,7 +235,7 @@ def visualize_dataset(dataset, num_samples=4):
     plt.tight_layout()
     plt.show()
         
-dataset = BladderCancerDataset(root_dir ='/home/as-aravinthakshan/Desktop/RESEARCH/explainable-cancer-staging-and-frading-from-images/data/preprocessed/Al-Bladder Cancer')
+dataset = BladderCancerDataset(root_dir ='data/original/Al-Bladder Cancer')
 # sample = dataset[200]  # Get the first sample
 # BladderCancerVisualizer.visualize_sample(sample)
 dataloader = DataLoader(dataset, batch_size=4, shuffle=True)
